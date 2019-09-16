@@ -39,7 +39,8 @@ namespace Hangman
                     }
                 }
             }
-            
+
+            Console.WriteLine("RÖVA");
 
         }
     }
