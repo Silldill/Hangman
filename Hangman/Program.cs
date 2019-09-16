@@ -39,25 +39,7 @@ namespace Hangman
                     }
                 }
             }
-            while (true)
-            {
-
-                foreach (char c in gissning)
-                    Console.Write(c + " ");
-                Console.WriteLine();
-                Console.Write("Mata in gissning: ");
-                string gissa = Console.ReadLine();
-                char[] gissa1 = new char[gissa.Length];
-
-                for (int i = 0; i < gissa1.Length; i++)
-                {
-
-                    if (gissa1[i] == charord[i])
-                    {
-                        gissning[i] = gissa1[i];
-                    }
-                }
-            }
+            
 
         }
     }
